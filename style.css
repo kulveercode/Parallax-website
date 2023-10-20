@@ -84,10 +84,15 @@ header{
     pointer-events: none;
 }
 .Parallax img#gate-left {
+    position: fixed;
     transform: translateX(-282px);
 }
 .Parallax img#gate-right {
+    position: fixed;
     transform: translateX(305px);
+}
+.Parallax img#grass {
+    transform: translateY(-120px);
 }
 .sec{
     position: relative;
